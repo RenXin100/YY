@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	com/renxin/server/mixin/VirtualHostMixin$HandshakeMixin	Lnet/minecraft/network/ClientConnection;	connection	field_14153

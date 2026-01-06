@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "com/renxin/server/mixin/ServerPlayNetworkHandlerAccessor": {
+      "connection": "field_14127:Lnet/minecraft/class_2535;"
+    },
+    "com/renxin/server/mixin/VirtualHostMixin$HandshakeMixin": {
+      "onHandshake": "Lnet/minecraft/class_3246;method_12576(Lnet/minecraft/class_2889;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/renxin/server/mixin/ServerPlayNetworkHandlerAccessor": {
+        "connection": "field_14127:Lnet/minecraft/class_2535;"
+      },
+      "com/renxin/server/mixin/VirtualHostMixin$HandshakeMixin": {
+        "onHandshake": "Lnet/minecraft/class_3246;method_12576(Lnet/minecraft/class_2889;)V"
+      }
+    }
+  }
+}

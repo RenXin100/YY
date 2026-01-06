@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.renxin.server.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "VirtualHostMixin$ConnectionMixin",
+    "VirtualHostMixin$HandshakeMixin",
+    "ServerPlayNetworkHandlerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
