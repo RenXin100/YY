@@ -1,0 +1,26 @@
+[13:04:31] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.14.22
+[13:04:31] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.server.Main -> net/minecraft/server/Main
+[13:04:31] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor main([Ljava/lang/String;)V
+[13:04:31] [main/DEBUG] (FabricLoader/GamePatch) 20w22a+ detected, patching main method...
+[13:04:31] [main/DEBUG] (FabricLoader/GamePatch) Detected version above 20w22a
+[13:04:31] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[13:04:31] [main/DEBUG] (FabricLoader/GamePatch) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[13:04:31] [main/DEBUG] (FabricLoader/GamePatch) Patched 3 classs
+[13:04:31] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 46.8 ms
+[13:04:31] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[13:04:31] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_NO_CANDIDATE ren-voice 1.0.0 {depends fabricloader @ [>=0.18.4]}, ROOT_FORCELOAD_SINGLE ren-voice 1.0.0]
+[13:04:31] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP ren-voice 1.0.0 {depends fabricloader @ [>=0.18.4]}]
+[13:04:31] [main/INFO] (FabricLoader/Resolution) SERVER environment disabled: [fabric-renderer-api-v1, fabric-models-v0, fabric-client-tags-api-v1, fabric-sound-api-v1, fabric-screen-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1]
+[13:04:31] [main/INFO] (FabricLoader/Resolution) Fix: add [], remove [], replace [[fabricloader 0.14.22] -> add:fabricloader 0.18.4 ([[0.18.4,∞)])]
+[13:04:31] [main/ERROR] (FabricLoader) Incompatible mod set!
+net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Replace mod 'Fabric Loader' (fabricloader) 0.14.22 with version 0.18.4 or later.
+Unmet dependency listing:
+	 - Mod 'ren-voice' (ren-voice) 1.0.0 requires version 0.18.4 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.14.22!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:192) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:148) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.22.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]

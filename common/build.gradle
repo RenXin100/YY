@@ -1,0 +1,13 @@
+subprojects {
+    // ... 其他配置 ...
+
+    repositories {
+        // 必须把这个放在最前面，确保从官方仓库下载
+        mavenCentral()
+
+        maven { url "https://maven.fabricmc.net/" }
+        // ... 其他仓库 ...
+    }
+
+    // ... 其他配置 ...
+}
