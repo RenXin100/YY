@@ -1,0 +1,11 @@
+{
+  "category.renvoice.title": "RenVoice Mod",
+  "key.renvoice.ptt": "Push To Talk",
+  "key.renvoice.config": "Open Voice GUI",
+
+  "renvoice.screen.title": "RenVoice Control Panel",
+  "renvoice.mode.open_mic": "Mode: Open Mic",
+  "renvoice.mode.ptt": "Mode: Push To Talk",
+  "renvoice.mute.true": "Muted",
+  "renvoice.mute.false": "Unmuted"
+}

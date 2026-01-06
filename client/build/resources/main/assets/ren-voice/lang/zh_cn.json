@@ -1,0 +1,11 @@
+{
+  "category.renvoice.title": "RenVoice 语音模组",
+  "key.renvoice.ptt": "按键说话 (PTT)",
+  "key.renvoice.config": "打开语音面板",
+
+  "renvoice.screen.title": "RenVoice 控制面板",
+  "renvoice.mode.open_mic": "当前模式: 常开麦",
+  "renvoice.mode.ptt": "当前模式: 按键说话",
+  "renvoice.mute.true": "已禁言",
+  "renvoice.mute.false": "接收中"
+}

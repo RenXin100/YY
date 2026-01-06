@@ -1,0 +1,10 @@
+dependencies {
+    implementation project(path: ":common", configuration: "namedElements")
+
+    // --- 标准 Opus 库 (API + Natives) ---
+    implementation 'club.minnced:opus-java-api:1.1.1'
+    implementation 'club.minnced:opus-java-natives:1.1.1'
+
+    // JNA (Opus 依赖它)
+    implementation 'net.java.dev.jna:jna:5.13.0'
+}
